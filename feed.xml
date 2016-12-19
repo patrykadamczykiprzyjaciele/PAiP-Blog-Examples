@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Patryk Adamczyk i Przyjaciele</title>
+	<atom:link href="http://www.paip.com.pl/rss/feed.xml" rel="self" type="application/rss+xml" />
+	<link>http://www.paip.com.pl</link>
+	<description>Informatyka z Pasją</description>
+	<lastBuildDate>pon, 19 Gru 2016 11:35:00 +0100</lastBuildDate>
+	<language>pl-PL</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+
+  <image>
+    <url>http://www.paip.com.pl/img/paiplogo_b.png</url>
+    <title>Patryk Adamczyk i Przyjaciele</title>
+    <link>http://www.paip.com.pl</link>
+    <width>32</width>
+    <height>32</height>
+  </image>
+	<item>
+		<title>Hello World</title>
+		<link>http://www.paip.com.pl</link>
+		<comments>http://www.paip.com.pl</comments>
+		<pubDate>Mon, 19 Dec 2016 11:10:00 +0100</pubDate>
+		<dc:creator><![CDATA[Patryk Adamczyk]]></dc:creator>
+		<category><![CDATA[RSS]]></category>
+
+		<guid isPermaLink="false">http://www.paip.com.pl/</guid>
+		<description><![CDATA[Hello World]]></description>
+				<content:encoded><![CDATA[
+          <h1>Hello World</h1>
+          ]]></content:encoded>
+		</item>
+  	<item>
+  		<title>Hello World</title>
+  		<pubDate>Mon, 19 Dec 2016 11:12:00 +0100</pubDate>
+  		<dc:creator><![CDATA[Patryk Adamczyk]]></dc:creator>
+  		<category><![CDATA[RSS]]></category>
+
+  		<guid isPermaLink="false">http://www.paip.com.pl/</guid>
+  		<description><![CDATA[Hello World]]></description>
+  				<content:encoded><![CDATA[
+            <h1>Hello World</h1>
+            ]]></content:encoded>
+  		</item>
+	</channel>
+</rss>

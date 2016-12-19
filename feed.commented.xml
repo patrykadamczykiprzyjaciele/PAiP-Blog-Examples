@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+<!-- Kanał RSS -->
+<channel>
+  <!-- Tytuł Kanału RSS -->
+	<title>Patryk Adamczyk i Przyjaciele</title>
+  <!-- Link do tego RSS-a -->
+	<atom:link href="http://www.paip.com.pl/rss/feed.xml" rel="self" type="application/rss+xml"/>
+  <!-- Link do strony -->
+	<link>http://www.paip.com.pl</link>
+  <!-- Opis -->
+	<description>Informatyka z Pasją</description>
+  <!-- Ostatnia Zmiana -->
+	<lastBuildDate>pon, 19 Gru 2016 11:13:00 +0100</lastBuildDate>
+  <!-- Język -->
+	<language>pl-PL</language>
+  <!-- Jak często ma się aktualizować? -->
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+
+  <!-- Logo -->
+  <image>
+    <!-- URL do loga -->
+    <url>http://www.paip.com.pl/img/paiplogo_b.png</url>
+    <!-- Tytuł -->
+    <title>Patryk Adamczyk i Przyjaciele</title>
+    <!-- Link do strony -->
+    <link>http://www.paip.com.pl</link>
+    <!-- Szerokość Ikony -->
+    <width>32</width>
+    <!-- Wysokość Ikony -->
+    <height>32</height>
+  </image>
+  <!-- Element / Artykuł -->
+	<item>
+    <!-- Tytuł -->
+		<title>Hello World</title>
+    <!-- Link do tego artykułu -->
+		<link>http://www.paip.com.pl</link>
+    <!-- Link do komentarzy tego artykułu -->
+		<comments>http://www.paip.com.pl</comments>
+    <!-- Data Publikacji -->
+		<pubDate>Mon, 19 Dec 2016 11:10:00 +0100</pubDate>
+    <!-- Autor Artukułu -->
+		<dc:creator><![CDATA[Patryk Adamczyk]]></dc:creator>
+    <!-- Kategoria -->
+		<category><![CDATA[RSS]]></category>
+    <!-- Identyfikator --> <!-- isPermaLink - true / guid to url do artykułu / false / guid to tekst -->
+		<guid isPermaLink="false">http://www.paip.com.pl/</guid>
+    <!-- Opis Artykułu -->
+		<description><![CDATA[Hello World]]></description>
+        <!-- Zawartość Artykułu -->
+				<content:encoded><![CDATA[
+          <h1>Hello World</h1>
+          ]]></content:encoded>
+		</item>
+  	<item>
+  		<title>Hello World</title>
+  		<pubDate>Mon, 19 Dec 2016 11:12:00 +0100</pubDate>
+  		<dc:creator><![CDATA[Patryk Adamczyk]]></dc:creator>
+  		<category><![CDATA[RSS]]></category>
+
+  		<guid isPermaLink="false">http://www.paip.com.pl/</guid>
+  		<description><![CDATA[Hello World]]></description>
+  				<content:encoded><![CDATA[
+            <h1>Hello World</h1>
+            ]]></content:encoded>
+  		</item>
+	</channel>
+</rss>
