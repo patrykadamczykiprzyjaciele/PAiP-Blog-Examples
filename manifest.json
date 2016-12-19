@@ -1,0 +1,28 @@
+{
+  //Wersja Manifestu
+  "manifest_version": 2,
+  //Nazwa Rozszerzenia
+  "name": "PAiP Blog",
+  //Skrócona Nazwa
+  "short_name": "Blog",
+  //Wersja Rozszerzenia
+  "version": "1.0.0.0",
+  //Nazwa Wersji Rozszerzenia
+  "version_name": "build 1",
+  //Opis Rozszerzenia
+  "description": "Blog Zespołu PAiP",
+  //Strona Główna Rozszerzenia (Wyświetlana w "chrome://extensions/")
+  "homepage_url": "http://www.blog.paip.com.pl",
+
+  //Akcja po naciśnięciu na ikonę rozszerzenia przy pasku adresu
+	"browser_action":{
+    //Domyślna Ikona
+		"default_icon": "icon.png",
+    //Domyślny Tytuł
+    "default_title": "Blog PAiP",
+    //Domyślna strona otwierana jako popup
+		"default_popup": "popup.html"
+	},
+  //Autor
+  "author": "Patryk Adamczyk i Przyjaciele"
+}
